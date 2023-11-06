@@ -1,0 +1,98 @@
+.footer{
+    height: 90px;
+    width: 1440px;
+    }
+.footer .group {
+    height: 90px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1450px;
+    }
+.footer .navbar {
+    background-color: #ffffff;
+    height: 90px;
+    position: relative;
+    width: 1440px;
+    }
+.footer .youtube {
+    height: 32px;
+    left: 1278px;
+    position: absolute;
+    top: 29px;
+    width: 32px;
+    }
+.footer.text-wrapper {
+    color: #000000;
+    font-family: "SVN-Product Sans-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 105px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 33px;
+    white-space: nowrap;
+    }
+.footer.div {
+    color: #000000;
+    font-family: "SVN-Product Sans-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 229px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 33px;
+    white-space: nowrap;
+    }
+.footer.text-wrapper-2 {
+    color: #000000;
+    font-family: "SVN-Product Sans-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 387px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 33px;
+    white-space: nowrap;
+    }
+.footer .text-wrapper-3 {
+    color: #000000;
+    font-family: "SVN-Product Sans-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 533px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 33px;
+    white-space: nowrap;
+    }
+.footer .text-wrapper-4 {
+    color: #000000;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 1053px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 36px;
+    white-space: nowrap;
+    }
+.footer.instagram {
+    height: 32px;
+    left: 1230px;
+    position: absolute;
+    top: 29px;
+    width: 32px;
+    }
+.footer.facebook {
+    height: 32px;
+    left: 1190px;
+    position: absolute;
+    top: 29px;
+    width: 32px;
+    }

@@ -1,0 +1,21 @@
+.cardproduct{
+    height: 124px;
+    left: 105px;
+    position: absolute;
+    top: 2855px;
+    width: 604px;
+}
+.cardproduct.cardproduct-default{
+    height: 397px;
+  left: 105px;
+  position: absolute;
+  top: 3027px;
+  width: 285px;
+  }
+.cardproduct.group-3{
+    height: 124px;
+  left: 105px;
+  position: absolute;
+  top: 2855px;
+  width: 604px;
+}
