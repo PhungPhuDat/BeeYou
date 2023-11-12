@@ -1,0 +1,7 @@
+:root {
+    --heading: rgba(0, 0, 0, 1);
+    --primary: rgba(255, 200, 0, 1);
+    --secondary: rgba(0, 158, 254, 1);
+    --shadow-1: 0px 6px 36px 0px rgba(0, 0, 0, 0.1);
+  }
+  
