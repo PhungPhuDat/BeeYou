@@ -6,18 +6,18 @@ export const Desktop = () => {
     <div className="desktop">
       <div className="div">
         <div className="overlap">
-          <img className="intersect" alt="Intersect" src="/intersect.svg" />
+          <img className="intersect" alt="Intersect" src={require("./static/img/intersect.svg").default} />
           <div className="ellipse" />
-          <img className="image" alt="Atribute" src="/img/image-11.png" />
-          <img className="mask-group" alt="Mask group" src="/img/mask-group.png" />
+          <img className="image" alt="Atribute" src={require('./static/img/img-11.svg')} />
+          <img className="mask-group" alt="Mask group" src={require("./static/img/mask-group.png")} />
         </div>
         <div className="overlap-group">
-          <img className="img" alt="Intersect" src="/img/intersect-3.svg" />
+          <img className="img" alt="Intersect" src={require("./static/img/intersect-3.svg").default} />
           
            {/* card horver */}
           <div className="card-product-hover">
             <div className="overlap-2">
-              <img className="img-2" alt="Img" src="/img/img-11.svg" />
+              <img className="img-2" alt="Img" src={require("./static/img/img-11.svg").default} />
               <p className="titile">Túi Totes Cactus Bag nữ tính xành điệu</p>
               <div className="overlap-3">
                 <div className="overlap-group-2">
@@ -40,7 +40,7 @@ export const Desktop = () => {
        
        {/* Header */}
         <div className="overlap-4">
-          <img className="rectangle" alt="Rectangle" src="/img/rectangle-3.svg" />
+          <img className="rectangle" alt="Rectangle" src={require("./static/img/rectangle-3.svg").default} />
           <div className="nav-bar">
             <div className="overlap-group-3">
              
@@ -48,11 +48,11 @@ export const Desktop = () => {
             </div>
             <div className="overlap-5">
               <div className="group">
-                <img className="img-3" alt="Bag" src="/img/bag-1.svg" />
+                <img className="img-3" alt="Bag" src={require("./static/img/bag-1.svg").default} />
               </div>
               
             </div>
-            <img className="logo-beeyou" alt="Logo beeyou" src="/img/logo-beeyou.svg" />
+            <img className="logo-beeyou" alt="Logo beeyou" src={require("./static/img/logo-beeyou.svg" ).default}/>
             <div className="text-wrapper-4">Tote collection</div>
             <div className="text-wrapper-5">Về chúng tôi</div>
             <div className="text-wrapper-6">Liên hệ</div>
@@ -68,7 +68,7 @@ export const Desktop = () => {
         {/* Card product default */}
         <div className="card-product-default">
           <div className="overlap-6">
-            <img className="img-2" alt="Img" src="/img/img-10.svg" />
+            <img className="img-2" alt="Img" src={require("./static/img/img-10.svg").default} />
             <p className="titile">Túi Totes Cactus Bag nữ tính xành điệu</p>
             <div className="price-2">320.000 đ</div>
             <div className="color-2">
@@ -81,7 +81,7 @@ export const Desktop = () => {
         </div>
         <div className="overlap-wrapper">
           <div className="overlap-7">
-            <img className="img-2" alt="Img" src="/img/img-9.svg" />
+            <img className="img-2" alt="Img" src={require("./static/img/img-9.svg" ).default}/>
             <p className="titile">Túi Totes Cactus Bag nữ tính xành điệu</p>
             <div className="price-2">320.000 đ</div>
             <div className="color-2">
@@ -96,7 +96,7 @@ export const Desktop = () => {
 
         <div className="overlap-group-wrapper">
           <div className="overlap-8">
-            <img className="img-2" alt="Img" src="/img/img-8.svg" />
+            <img className="img-2" alt="Img" src={require("./static/img/img-8.svg").default} />
             <p className="titile">Túi Totes Cactus Bag nữ tính xành điệu</p>
             <div className="price-2">320.000 đ</div>
             <div className="color-2">
@@ -110,10 +110,10 @@ export const Desktop = () => {
 
 
         <div className="overlap-9">
-          <img className="img" alt="Intersect" src="/img/intersect-1.svg" />
+          <img className="img" alt="Intersect" src={require("./static/img/intersect-1.svg").default} />
           <div className="card-product-hover">
             <div className="overlap-10">
-              <img className="img-2" alt="Img" src="/img/img-7.svg" />
+              <img className="img-2" alt="Img" src={require("./static/img/img-7.svg").default} />
               <p className="titile">Túi Totes Cactus Bag nữ tính xành điệu</p>
               <div className="overlap-3">
                 <div className="overlap-group-2">
@@ -137,7 +137,7 @@ export const Desktop = () => {
 
         <div className="div-wrapper">
           <div className="overlap-11">
-            <img className="img-2" alt="Img" src="/img/img-6.svg" />
+            <img className="img-2" alt="Img" src={require("./static/img/img-6.svg").default} />
             <p className="titile">Túi Totes Cactus Bag nữ tính xành điệu</p>
             <div className="price-2">320.000 đ</div>
             <div className="color-2">
@@ -152,7 +152,7 @@ export const Desktop = () => {
 
         <div className="card-product-default-2">
           <div className="overlap-12">
-            <img className="img-2" alt="Img" src="/img/img-5.svg" />
+            <img className="img-2" alt="Img" src={require("./static/img/img-5.svg").default} />
             <p className="titile">Túi Totes Cactus Bag nữ tính xành điệu</p>
             <div className="price-2">320.000 đ</div>
             <div className="color-2">
@@ -167,7 +167,7 @@ export const Desktop = () => {
 
         <div className="card-product-default-3">
           <div className="overlap-13">
-            <img className="img-2" alt="Img" src="/img/img-4.svg" />
+            <img className="img-2" alt="Img" src={require("./static/img/img-4.svg" ).default}/>
             <p className="titile">Túi Totes Cactus Bag nữ tính xành điệu</p>
             <div className="price-2">320.000 đ</div>
             <div className="color-2">
@@ -196,10 +196,10 @@ export const Desktop = () => {
           </p>
         </div>
         <div className="overlap-14">
-          <img className="img" alt="Intersect" src="/img/intersect-1.svg" />
+          <img className="img" alt="Intersect" src={require("./static/img/intersect-1.svg" ).default}/>
           <div className="card-product-hover">
             <div className="overlap-15">
-              <img className="img-2" alt="Img" src="/img/img-3.svg" />
+              <img className="img-2" alt="Img" src={require("./static/img/img-3.svg").default} />
               <p className="titile">Túi Totes Cactus Bag nữ tính xành điệu</p>
               <div className="overlap-3">
                 <div className="overlap-group-2">
@@ -221,7 +221,7 @@ export const Desktop = () => {
         </div>
         <div className="card-product-default-4">
           <div className="overlap-16">
-            <img className="img-2" alt="Img" src="/img/img-2.svg" />
+            <img className="img-2" alt="Img" src={require("./static/img/img-2.svg").default} />
             <p className="titile">Túi Totes Cactus Bag nữ tính xành điệu</p>
             <div className="price-2">320.000 đ</div>
             <div className="color-2">
@@ -234,7 +234,7 @@ export const Desktop = () => {
         </div>
         <div className="card-product-default-5">
           <div className="overlap-17">
-            <img className="img-2" alt="Img" src="/img/img-1.svg" />
+            <img className="img-2" alt="Img" src={require("./static/img/img-1.svg" ).default}/>
             <p className="titile">Túi Totes Cactus Bag nữ tính xành điệu</p>
             <div className="price-2">320.000 đ</div>
             <div className="color-2">
@@ -247,7 +247,7 @@ export const Desktop = () => {
         </div>
         <div className="card-product-default-6">
           <div className="overlap-18">
-            <img className="img-2" alt="Img" src="/img/img.svg" />
+            <img className="img-2" alt="Img" src={require("./static/img/img.svg").default} />
             <p className="titile">Túi Totes Cactus Bag nữ tính xành điệu</p>
             <div className="price-2">320.000 đ</div>
             <div className="color-2">
@@ -284,7 +284,7 @@ export const Desktop = () => {
             </p>
             <p className="text">
               <span className="span">
-                Với khách hàng, BeeYou là nơi bạn dễ dàng tìm thấy những những sản phẩm thời trang thể hiện CHẤT của
+                Với khách hàng, BeeYou là nơi bạn dễ dàng tìm thấy những những sản phẩm thời trang thể hiện CHẤT của
                 riêng mình. Là chính mình cùng BeeYou.
                 <br />
               </span>
@@ -306,9 +306,9 @@ export const Desktop = () => {
           </div>
           <div className="group-7">
             <div className="overlap-20">
-              <img className="frame" alt="Frame" src="/img/frame.svg" />
-              <img className="vector" alt="Vector" src="/img/vector-1.svg" />
-              <img className="group-8" alt="Group" src="/img/group-40.png" />
+              <img className="frame" alt="Frame" src={require("./static/img/frame.svg").default} />
+              <img className="vector" alt="Vector" src={require("./static/img/vector-1.svg").default} />
+              <img className="group-8" alt="Group" src={require("./static/img/group-40.png")} />
             </div>
           </div>
         </div>
@@ -322,28 +322,28 @@ export const Desktop = () => {
           <div className="text-wrapper-13">Size túi: 38*34*7cm</div>
           <p className="text-wrapper-14">Túi có khoá kéo, túi con tiện lợi cho nàng sử dụng</p>
           <div className="tape" />
-          <img className="zipper" alt="Zipper" src="/img/zipper-1.svg" />
-          <img className="textile" alt="Textile" src="/img/textile-1.svg" />
-          <img className="colors" alt="Colors" src="/img/colors-1.svg" />
-          <img className="fit-vertical" alt="Fit vertical" src="/img/fit-vertical-1.svg" />
+          <img className="zipper" alt="Zipper" src={require("./static/img/zipper-1.svg" ).default}/>
+          <img className="textile" alt="Textile" src={require("./static/img/textile-1.svg" ).default}/>
+          <img className="colors" alt="Colors" src={require("./static/img/colors-1.svg").default} />
+          <img className="fit-vertical" alt="Fit vertical" src={require("./static/img/fit-vertical-1.svg").default} />
         </div>
         <div className="carrd-instagram">
-          <img className="rectangle-3" alt="Rectangle" src="/img/rectangle-10-5.svg" />
+          <img className="rectangle-3" alt="Rectangle" src={require("./static/img/rectangle-10-5.svg" ).default}/>
         </div>
         <div className="rectangle-wrapper">
-          <img className="rectangle-4" alt="Rectangle" src="/img/rectangle-10-4.svg" />
+          <img className="rectangle-4" alt="Rectangle" src={require("./static/img/rectangle-10-4.svg" ).default}/>
         </div>
         <div className="img-wrapper">
-          <img className="rectangle-3" alt="Rectangle" src="/img/rectangle-10-3.svg" />
+          <img className="rectangle-3" alt="Rectangle" src={require("./static/img/rectangle-10-3.svg").default} />
         </div>
         <div className="carrd-instagram-2">
-          <img className="rectangle-3" alt="Rectangle" src="/img/rectangle-10-2.svg" />
+          <img className="rectangle-3" alt="Rectangle" src={require("./static/img/rectangle-10-2.svg" ).default}/>
         </div>
         <div className="carrd-instagram-3">
-          <img className="rectangle-3" alt="Rectangle" src="/img/rectangle-10-1.svg" />
+          <img className="rectangle-3" alt="Rectangle" src={require("./static/img/rectangle-10-1.svg").default} />
         </div>
         <div className="carrd-instagram-4">
-          <img className="rectangle-5" alt="Rectangle" src="/img/rectangle-10.svg" />
+          <img className="rectangle-5" alt="Rectangle" src={require("./static/img/rectangle-10.svg").default} />
         </div>
         <div className="group-9">
           <div className="text-wrapper-15">BeeYou trên Instagram</div>
@@ -354,34 +354,33 @@ export const Desktop = () => {
         </div>
         <div className="group-10">
           <div className="text-wrapper-17">instagr.am/beeyoufashion</div>
-          <img className="logo-instagram" alt="Logo instagram" src="/img/logo-instagram-1.svg" />
+          <img className="logo-instagram" alt="Logo instagram" src={require("./static/img/logo-instagram-1.svg").default} />
         </div>
         <div className="group-11">
           <div className="overlap-22">
-            <img className="youtube" alt="Youtube" src="/img/youtube-1.svg" />
+            <img className="youtube" alt="Youtube" src={require("./static/img/youtube-1.svg").default} />
             <div className="text-wrapper-18">Sản phẩm hot</div>
             <div className="text-wrapper-19">Sản phẩm bán chạy</div>
             <div className="text-wrapper-20">Hot deal tháng 12</div>
             <div className="text-wrapper-21">Anotner links</div>
             <div className="text-wrapper-22">© 2020 beebag.com.vn</div>
-            <img className="instagram" alt="Instagram" src="/img/instagram-1.svg" />
-            <img className="facebook" alt="Facebook" src="/img/facebook-1.svg" />
+            <img className="instagram" alt="Instagram" src={require("./static/img/instagram-1.svg" ).default}/>
+            <img className="facebook" alt="Facebook" src={require("./static/img/facebook-1.svg" ).default}/>
           </div>
         </div>
         <div className="overlap-23">
-          <img className="image-2" alt="Atribute" src="/img/image-16.png" />
-          <img className="screen-shot" alt="Screen shot" src="/img/screen-shot-2019-12-09-at-19-58-1.png" />
+          <img className="image-2" alt="Atribute" src={require("./static/img/image-16.png")} />
+          <img className="screen-shot" alt="Screen shot" src={require("./static/img/screen-shot-2019-12-09-at-19-58-1.png")} />
         </div>
-        <img className="screen-shot-2" alt="Screen shot" src="/img/screen-shot-2019-12-09-at-19-58.png" />
-        <div className="group-12">
-          <div className="down-arrow-wrapper">
-            <img className="img-3" alt="Down arrow" src="/img/down-arrow-1-1.svg" />
-          </div>
-          <div className="group-13">
-            <img className="img-3" alt="Down arrow" src="/img/down-arrow-1.svg" />
-          </div>
-        </div>
-        <img className="image-3" alt="Atribute" src="/img/image-18.png" />
+        <img className="screen-shot-2" alt="Screen shot" src={require("./static/img/screen-shot-2019-12-09-at-19-58.png")} />
+        <><div className="group-12">
+            <div className="down-arrow-wrapper">
+              <img className="img-3" alt="Down arrow" src={require("./static/img/down-arrow-1-1.svg").default} />
+            </div>
+            <div className="group-13">
+              <img className="img-3" alt="Down arrow" src={require("./static/img/down-arrow-1.svg").default} />
+            </div>
+          </div><img className="image-3" alt="Atribute" src={require("./static/img/image-18.png")} /></>
       </div>
     </div>
   );
